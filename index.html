@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoinZH</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="head">
+                <div class="head_logo">
+                    <img src="./img/Logo.svg" alt="">
+                    <div class="head_logo_buttons">
+                        <a href="#">Exchange</a>
+                        <a href="#">Market</a>
+                        <a href="#">Support</a>
+                        <a href="#">Buy crypto</a>
+                        <a href="#">Rewards</a>
+                    </div>
+                </div>
+                <div class="head_buttons">
+                    <button class="btn_login"><a href="#">Login</a></button>
+                    <button class="btn_start"><a href="#">Get Started</a></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="bitcoin_info">
+        <div class="container">
+            <div class="bitcoin_box">
+                <div class="bitcoin_box-left">
+                    <div class="bitcoin-name">
+                        <img class="left_menu" src="./img/swap_horiz.svg" alt="">
+                        <img src="./img/bitcoin_logo.svg" alt="">
+                        <div class="bitcoin-name-lines">
+                            <div>
+                                <h5>BTCUSDT</h5>
+                                <img src="./img/info_outline.svg" alt="">
+                            </div>
+                            <p>USDT Perpetual</p>
+                        </div>
+                    </div>
+                    <div class="bitcoin_all-info">
+                        <h4 class="red">19.938.50</h4>
+                        <div>
+                            <p>24H Change %</p>
+                            <h3 class="green">+1.13%</h3>
+                        </div>
+                        <div>
+                            <p>24H High</p>
+                            <h3>20.164.50</h3>
+                        </div>
+                        <div>
+                            <p>24H Low</p>
+                            <h3>19.6500.00</h3>
+                        </div>
+                        <div>
+                            <p>24H Turnover(USDT)</p>
+                            <h3>3.258.145.085.33</h3>
+                        </div>
+                        <div>
+                            <p>Funding Rate / Countdown</p>
+                            <h3><b>0.0003%</b> / 03:40:26</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="bitcoin_box-right">
+                    <div>
+                        <img class="click" src="./img/content_copy.svg" alt="">
+                        <h5>Copy Trading</h5>
+                    </div>
+                    <img src="./img/little_horizontal_line.svg" alt="">
+                    <img class="click" src="./img/settings.svg" alt="">
+                    <img class="click" src="./img/little_book.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="all_hero">
+        <section class="bit_data">
+            <div class="bit_data_recent_trades">
+                <div class="bit_data_recent_trades_title">
+                    <h5>Recent Trades</h5>
+                    <img id="recent_trade" class="click" src="./img/fullscreen_exit.svg" alt="">
+                </div>
+                <div class="bit_data_recent_trades-line"></div>
+                <div class="bit_data_recent_trades_info">
+                    <div class="bit_data_recent_trades_info-line">
+                        <div>
+                            <h5 class="green">19.936.00</h5>
+                            <img src="./img/arrow_downward_green.svg" alt="">
+                        </div>
+                        <h6>0.002</h6>
+                        <h6>15:20:08</h6>
+                    </div>
+                    <div class="bit_data_recent_trades_info-line">
+                        <div>
+                            <h5 class="green">19.936.00</h5>
+                            <img src="./img/arrow_downward_green.svg" alt="">
+                        </div>
+                        <h6>0.002</h6>
+                        <h6>15:20:08</h6>
+                    </div>
+                    <div class="bit_data_recent_trades_info-line">
+                        <div>
+                            <h5 class="red">19.936.00</h5>
+                            <img src="./img/arrow_downward_red.svg" alt="">
+                        </div>
+                        <h6>0.002</h6>
+                        <h6>15:20:08</h6>
+                    </div>
+                    <div class="bit_data_recent_trades_info-line">
+                        <div>
+                            <h5 class="red">19.936.00</h5>
+                            <img src="./img/arrow_downward_red.svg" alt="">
+                        </div>
+                        <h6>0.002</h6>
+                        <h6>15:20:08</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="bit_data_order_book">
+                <div class="bit_data_order_book_title">
+                    <h5>Order Book</h5>
+                    <img id="order_book" class="click" src="./img/fullscreen_exit.svg" alt="">
+                </div>
+                <div class="bit_data_order_book-line"></div>
+                <div class="bit_data_order_book_info">
+                    <div class="bit_data_order_book_info_frames">
+                        <div class="bit_data_order_book_frames_box">
+                            <div class="bit_data_order_book_frames_box-img">
+                                <img id="order_book1" class="bit_data_order_img" src="./img/Frame 1494.svg" alt="">
+                                <img id="order_book2" class="bit_data_order_img" src="./img/Frame 1497.svg" alt="">
+                                <img id="order_book3" class="bit_data_order_img" src="./img/Frame 1495.svg" alt="">
+                                <img id="order_book4" class="bit_data_order_img" src="./img/Frame 1496.svg" alt="">
+                            </div>
+                            <select name="select_frames" id="select">
+                                <option value="value1">1</option>
+                                <option value="value2">2</option>
+                                <option value="value3">3</option>
+                                <option value="value4">4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="bit_data_order_book_info_box-first">
+                        <div class="bit_data_order_book_upper-numbers">
+                            <div class="bit_data_order_book_upper-numbers_first_col">
+                                <h5>Price(USDT)</h5>
+                                <ul>
+                                    <li class="red">19.936.00</li>
+                                    <li class="red">19.936.00</li>
+                                    <li class="red">19.936.00</li>
+                                    <li class="red">19.936.00</li>
+                                    <li class="red">19.936.00</li>
+                                    <li class="red">19.936.00</li>
+                                    <li class="red">19.936.00</li>
+                                    <li class="red">19.936.00</li>
+                                </ul>
+                            </div>
+                            <div class="bit_data_order_book_upper-numbers_other_col">
+                                <h5>Quantity(BTC)</h5>
+                                <ul>
+                                    <li>0.002</li>
+                                    <li>0.002</li>
+                                    <li>0.002</li>
+                                    <li>0.002</li>
+                                    <li>0.002</li>
+                                    <li>0.002</li>
+                                    <li>0.002</li>
+                                    <li>0.002</li>
+                                </ul>
+                            </div>
+                            <div class="bit_data_order_book_upper-numbers_other_col">
+                                <h5>Quantity(BTC)</h5>
+                                <ul>
+                                    <li>0.872</li>
+                                    <li>0.872</li>
+                                    <li>0.872</li>
+                                    <li>0.872</li>
+                                    <li>0.872</li>
+                                    <li>0.872</li>
+                                    <li>0.872</li>
+                                    <li>0.872</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="bit_data_order_book_middle-numbers">
+                            <div>
+                                <h3 class="red">19.936.00</h3>
+                                <img src="./img/arrow_downward_red.svg" alt="">
+                            </div>
+                            <div>
+                                <img src="./img/flag.svg" alt="">
+                                <h4>19.936.00</h4>
+                            </div>
+                        </div>
+                        <div class="bit_data_order_book_upper-numbers">
+                            <div class="bit_data_order_book_upper-numbers_first_col">
+                                <ul>
+                                    <li class="green">19.936.00</li>
+                                    <li class="green">19.936.00</li>
+                                    <li class="green">19.936.00</li>
+                                    <li class="green">19.936.00</li>
+                                    <li class="green">19.936.00</li>
+                                    <li class="green">19.936.00</li>
+                                    <li class="green">19.936.00</li>
+                                    <li class="green">19.936.00</li>
+                                </ul>
+                            </div>
+                            <div class="bit_data_order_book_upper-numbers_other_col">
+                                <ul>
+                                    <li>24.365</li>
+                                    <li>24.365</li>
+                                    <li>24.365</li>
+                                    <li>24.365</li>
+                                    <li>24.365</li>
+                                    <li>24.365</li>
+                                    <li>24.365</li>
+                                    <li>24.365</li>
+                                </ul>
+                            </div>
+                            <div class="bit_data_order_book_upper-numbers_other_col">
+                                <ul>
+                                    <li>235.365</li>
+                                    <li>235.365</li>
+                                    <li>235.365</li>
+                                    <li>235.365</li>
+                                    <li>235.365</li>
+                                    <li>235.365</li>
+                                    <li>235.365</li>
+                                    <li>235.365</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bit_data_details_info">
+                <div class="bit_data_details_info_upper_btns">
+                    <div class="bit_data_details_info_upper-buttons">
+                        <button class="bit_data_button" id="Positions">Positions</button>
+                        <button class="bit_data_button" id="Positions2">Positions</button>
+                        <button class="bit_data_button" id="Actove">Actove 0</button>
+                        <button class="bit_data_button" id="Conditional">Conditional 0</button>
+                        <button class="bit_data_button" id="Filled">Filled</button>
+                        <button class="bit_data_button" id="OrderHistory">Order History</button>
+                    </div>
+                    <div class="bit_data_details_info_upper_btns-checkbox">
+                        <input type="checkbox" name="details_info" id="details_info">
+                        <label for="details_info">Show All Posotions</label>
+                    </div>
+                </div>
+                <div class="bit_data_details_info_table">
+                    <table>
+                        <thead class="table_head">
+                            <tr class="table_head_tr">
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="bit_calculator">
+            <div class="first_line">
+                <div class="first_line_cross">
+                    <div class="info_cross">
+                        <h6>Cross</h6>
+                        <img src="./img/little_horizontal_line.svg" alt="">
+                        <h5 class="green">10.00x</h5>
+                        <h5 class="red">10.00x</h5>
+                    </div>
+                    <img class="click" src="./img/arrow_drop_down.svg" alt="">
+                </div>
+                <img class="click" src="./img/calculate.svg" alt="">
+            </div>
+            <div class="bitcoin_calc">
+                <div class="bit_calc_box">
+                    <div class="bit_calc_head_btns">
+                        <div class="bit_calc_head_btn" id="bit_calc_head_btn_open">
+                            <button>Open</button>
+                            <div class="bit_calc_head_line"></div>
+                        </div>
+                        <div class="bit_calc_head_btn" id="bit_calc_head_btn_close">
+                            <button>Close</button>
+                            <div class="bit_calc_head_line"></div>
+                        </div>
+                    </div>
+                    <div class="bit_calc_btns">
+                        <button id="bit_calc_limit" class="bit_calc_button">
+                            <p>Limit</p>
+                        </button>
+                        <button id="bit_calc_market" class="bit_calc_button">
+                            <p>Market</p>
+                        </button>
+                        <button id="bit_calc_conditional" class="bit_calc_button">
+                            <p>Conditional</p>
+                        </button>
+                    </div>
+                    <div class="bit_calc_btns2 none">
+                        <button id="bit_calc_limit2" class="bit_calc_button2">
+                            <p>Limit</p>
+                        </button>
+                        <button id="bit_calc_market2" class="bit_calc_button2">
+                            <p>Market</p>
+                        </button>
+                    </div>
+                    <div class="bit_calc_inputs none">
+                        <h5>Trigger Price</h5>
+                        <div>
+                            <input type="text">
+                            <i class="icon-input"></i>
+                        </div>
+                    </div>
+                    <div class="bit_calc_btns_conditional">
+                        <button class="bit_calc_button_conditional">
+                            <p>Last</p>
+                        </button>
+                        <button class="bit_calc_button_conditional">
+                            <p>Index</p>
+                        </button>
+                        <button class="bit_calc_button_conditional">
+                            <p>Mark</p>
+                        </button>
+                    </div>
+                    <div class="bit_calc_btns_conditional2">
+                        <button id="bit_calc_button_conditional_market" class="bit_calc_button_conditional2">
+                            <p>Market</p>
+                        </button>
+                        <button id="bit_calc_button_conditional_limit" class="bit_calc_button_conditional2">
+                            <p>Limit</p>
+                        </button>
+                    </div>
+                    <div class="bit_calc_inputs">
+                        <h5>Order Price</h5>
+                        <div>
+                            <input type="text">
+                            <i class="icon-input"></i>
+                        </div>
+                    </div>
+                    <div class="bit_calc_inputs">
+                        <h5>Orderby Qty</h5>
+                        <div>
+                            <input type="text">
+                            <i class="icon-input-text">BTC</i>
+                        </div>
+                    </div>
+                    <div class="bit_calc_btns_precents">
+                        <button class="bit_calc_percent_button">
+                            <p>10%</p>
+                        </button>
+                        <button class="bit_calc_percent_button">
+                            <p>25%</p>
+                        </button>
+                        <button class="bit_calc_percent_button">
+                            <p>50%</p>
+                        </button>
+                        <button class="bit_calc_percent_button">
+                            <p>75%</p>
+                        </button>
+                        <button class="bit_calc_percent_button">
+                            <p>100%</p>
+                        </button>
+                    </div>
+                    <div class="bit_calc_tp-sl">
+                        <div class="left_tp-sl">
+                            <input type="checkbox"  id="scales" checked>
+                            <label for="scales">Buy Long with TP/SL</label>
+                        </div>
+                        <div class="right_tp-sl">
+                            <input type="checkbox" id="scales2"  >
+                            <label for="scales2">Sell Short with TP/SL</label>
+                        </div>
+                    </div>
+                    <div class="bit_calc_order_value">
+                        <div>
+                            <p>Order Value:</p>
+                            <h5>- USDT</h5>
+                        </div>
+                        <div>
+                            <p>Order Value:</p>
+                            <h5>- USDT</h5>
+                        </div>
+                    </div>
+                    <div class="bit_calc_colors_btns">
+                        <button class="back_green">Open Long</button>
+                        <button class="back_red">Open Short</button>
+                    </div>
+                    <div class="bit_calc_post">
+                        <div class="bit_calc_post_check">
+                            <input type="checkbox" id="post"  >
+                            <label for="post">Post-Only</label>
+                        </div>
+                        <div class="bit_calc_post_text">
+                            <h5>Good-Till-Canceled</h5>
+                            <img src="./img/arrow_drop_down_dark.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="bit_calc_grey-line"></div>
+                    <div class="bit_calc_upgrade">
+                        <div class="bit_calc_upgrade_btn">
+                            <h5>Derivatives Account</h5>
+                            <img src="./img/visibility.svg" alt="">
+                        </div>
+                        <div class="bit_calc_upgrade_btn2">
+                            <h5>Upgrade</h5>
+                            <img src="./img/file_upload.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="bit_calc_equity">
+                        <div>
+                            <h5>Equity</h5>
+                            <h5>0.0000 USDT</h5>
+                        </div>
+                        <div>
+                            <h5>Available Balance</h5>
+                            <h5>0.0000 USDT</h5>
+                        </div>
+                    </div>
+                    <div class="bit_calc_white_btn">
+                        <button>Deposit</button>
+                        <button>Exchange</button>
+                        <button>Transfer</button>
+                    </div>
+                    <div class="bit_calc_grey-line"></div>
+                    <div class="bit_calc_title">
+                        <h5>Contract Details BTCUSDT</h5>
+                    </div>
+                    <div class="bit_calc_contract">
+                        <div class="bit_calc_contract_details">
+                            <div class="bit_calc_contract_details_line">
+                                <h6>Expiration Date</h6>
+                                <h5>Perpetual</h5>
+                            </div>
+                            <div class="bit_calc_contract_details_line">
+                                <h6>Expiration Date</h6>
+                                <h5>19,781.46</h5>
+                            </div>
+                            <div class="bit_calc_contract_details_line">
+                                <h6>Mark Price</h6>
+                                <h5>19,776.00</h5>
+                            </div>
+                            <div class="bit_calc_contract_details_hide">
+                                <div class="bit_calc_contract_details_line">
+                                    <h6>Open Interest</h6>
+                                    <h5>55,279.826 BTC</h5>
+                                </div>
+                                <div class="bit_calc_contract_details_line">
+                                    <h6>24H Turnover</h6>
+                                    <h5>3,426,960,589.48 USDT</h5>
+                                </div>
+                                <div class="bit_calc_contract_details_line">
+                                    <h6>24H Volume</h6>
+                                    <h5>172,600.812 BTC</h5>
+                                </div>
+                                <div class="bit_calc_contract_details_line">
+                                    <h6>Risk Limit</h6>
+                                    <h5>2,000,000 USDT | 2,000,000 USDT</h5>
+                                </div>
+                                <div class="bit_calc_contract_details_line">
+                                    <h6>Contract Value</h6>
+                                    <h5>1 BTC</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bit_calc_hide">
+                        <div>
+                            <h5 id="bit_calc_hide_text">Hide</h5>
+                            <img id="bit_calc_hide" src="./img/double_arrow.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="side_bar_left">
+        <div class="side_bar_left_box">
+            <div class="side_bar_left-title">
+                <h3>Derivatives</h3>
+                <img id="side_bar_left_close" src="./img/close.svg" alt="">
+            </div>
+            <div class="side_bar_left-input">
+                <div>
+                    <input type="text">
+                    <i class="icon-input"></i>
+                </div>
+            </div>
+            <div class="">
+
+            </div>
+            <div class="">
+
+            </div>
+            <div class="side_bar_left-info">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                <div>
+                                    <h4>Contracts</h4>
+                                    <img src="./img/unfold_more.svg" alt="">
+                                </div>
+                            </th>
+                            <th>
+                                <div>
+                                    <h4>Price</h4>
+                                    <img src="./img/unfold_more.svg" alt="">
+                                </div>
+                            </th>
+                            <th>
+                                <div>
+                                    <h4>24H Change %</h4>
+                                    <img src="./img/unfold_more.svg" alt="">
+                                </div>
+                            </th>
+                            <th>
+                                <div>
+                                    <h4>Trading Volume(Turnover)</h4>
+                                    <img src="./img/unfold_more.svg" alt="">
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            <td>
+                                <div>
+                                    <img src="./img/leftBar/grade.svg" alt="">
+                                    <img src="./img/leftBar/btc.svg" alt="">
+                                    <h4>BTCUSDT</h4>
+                                </div>
+                            </td>
+                            <td>
+                                <h5>18,889.50</h5>
+                            </td>
+                            <td>
+                                <h5>-4.7%</h5>
+                            </td>
+                            <td>
+                                <h5>4.45B (USDT)</h5>
+                            </td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <div class="side_bar_background"></div>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

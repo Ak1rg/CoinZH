@@ -1,0 +1,1618 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/proxima-nova-condensed");
+.head {
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head .head_logo {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.head .head_logo .head_logo_buttons {
+  display: flex;
+  gap: 25px;
+}
+.head .head_logo .head_logo_buttons a {
+  color: var(--white, #FFF);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+.head .head_logo .head_logo_buttons a:hover {
+  color: #2E4CE5;
+  transition: 0.3s;
+}
+.head .head_buttons {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.head .head_buttons .btn_login {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.head .head_buttons .btn_login a {
+  text-decoration: none;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #FFF;
+}
+.head .head_buttons .btn_login a:hover {
+  color: #2E4CE5;
+  transition: 0.3s;
+}
+.head .head_buttons .btn_start {
+  border: solid 1px #2E4CE5;
+  cursor: pointer;
+  padding: 13px 40px;
+  border-radius: 6px;
+  background: #2E4CE5;
+  transition: 0.5s;
+}
+.head .head_buttons .btn_start a {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-family: Manrope;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.head .head_buttons .btn_start:hover {
+  border: solid 1px #2E4CE5;
+  background-color: #0D151D;
+  transition: 0.3s;
+}
+.head .head_buttons .btn_start:hover a {
+  color: #2E4CE5;
+  transition: 0.3s;
+}
+
+.bitcoin_info .container {
+  background: #131E2A;
+  border-radius: 8px;
+}
+.bitcoin_info .container .bitcoin_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  height: 60px;
+}
+.bitcoin_info .container .bitcoin_box .bitcoin_box-left {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.bitcoin_info .container .bitcoin_box .bitcoin_box-left .bitcoin-name {
+  display: flex;
+  gap: 15px;
+}
+.bitcoin_info .container .bitcoin_box .bitcoin_box-left .bitcoin-name .left_menu {
+  cursor: pointer;
+}
+.bitcoin_info .container .bitcoin_box .bitcoin_box-left .bitcoin-name .bitcoin-name-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.bitcoin_info .container .bitcoin_box .bitcoin_box-left .bitcoin-name .bitcoin-name-lines div {
+  display: flex;
+}
+.bitcoin_info .container .bitcoin_box .bitcoin_box-left .bitcoin-name .bitcoin-name-lines div h5 {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-family: Manrope;
+}
+.bitcoin_info .container .bitcoin_box .bitcoin_box-left .bitcoin-name .bitcoin-name-lines p {
+  color: #697D94;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: Manrope;
+}
+.bitcoin_info .container .bitcoin_box .bitcoin_box-left .bitcoin_all-info {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.bitcoin_info .container .bitcoin_box .bitcoin_box-left .bitcoin_all-info h4 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-family: Manrope;
+}
+.bitcoin_info .container .bitcoin_box .bitcoin_box-left .bitcoin_all-info div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.bitcoin_info .container .bitcoin_box .bitcoin_box-left .bitcoin_all-info div p {
+  color: #697D94;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.bitcoin_info .container .bitcoin_box .bitcoin_box-left .bitcoin_all-info div h3 {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: Manrope;
+}
+.bitcoin_info .container .bitcoin_box .bitcoin_box-left .bitcoin_all-info div h3 b {
+  color: #FFC121;
+}
+.bitcoin_info .container .bitcoin_box .bitcoin_box-left .bitcoin_all-info div .green {
+  color: #21AF40;
+}
+.bitcoin_info .container .bitcoin_box .bitcoin_box-right {
+  display: flex;
+  gap: 15px;
+}
+.bitcoin_info .container .bitcoin_box .bitcoin_box-right div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bitcoin_info .container .bitcoin_box .bitcoin_box-right div h5 {
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-family: Manrope;
+}
+
+.bit_calculator {
+  width: 400px;
+}
+.bit_calculator .first_line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bit_calculator .first_line .first_line_cross {
+  display: flex;
+  align-items: center;
+  gap: 135px;
+  padding: 10px 20px;
+  background-color: #131E2A;
+  border-radius: 8px;
+}
+.bit_calculator .first_line .first_line_cross .info_cross {
+  display: flex;
+  gap: 10px;
+}
+.bit_calculator .first_line .first_line_cross .info_cross h6 {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: right;
+}
+.bit_calculator .first_line .first_line_cross .info_cross h5 {
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: right;
+}
+.bit_calculator .bitcoin_calc {
+  margin-top: 10px;
+  background-color: #131E2A;
+  border-radius: 8px;
+  padding: 15px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_head_btns {
+  display: flex;
+  cursor: pointer;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_head_btns .bit_calc_head_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_head_btns .bit_calc_head_btn button {
+  margin: 5px 0px;
+  color: #697D94;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-family: Manrope;
+  font-size: 14px;
+  background: none;
+  border: none;
+  transition: 0.3s;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_head_btns .bit_calc_head_btn .bit_calc_head_line {
+  height: 1px;
+  width: 185px;
+  background-color: #B9B9B9;
+  transition: 0.3s;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_head_btns .bit_calc_head_btn.active button {
+  color: #2E4CE5;
+  transition: 0.3s;
+  margin: 5px 0px 4px 0px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_head_btns .bit_calc_head_btn.active .bit_calc_head_line {
+  height: 3px;
+  transition: 0.3s;
+  background-color: #2E4CE5;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns {
+  display: flex;
+  border-radius: 4px;
+  background: #1a2839;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns button {
+  cursor: pointer;
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns button p {
+  padding: 0px 16px;
+  color: #697D94;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: right;
+  font-family: Manrope;
+  transition: 0.3s;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns .bit_calc_button.active {
+  background: #3F5C7E;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns .bit_calc_button.active p {
+  color: #fff;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns.none {
+  display: none;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns2 {
+  display: flex;
+  border-radius: 4px;
+  background: #1a2839;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns2 button {
+  cursor: pointer;
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns2 button p {
+  padding: 0px 53px;
+  color: #697D94;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: right;
+  font-family: Manrope;
+  transition: 0.3s;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns2 .bit_calc_button2.active {
+  background: #3F5C7E;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns2 .bit_calc_button2.active p {
+  color: #fff;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns2.none {
+  display: none;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_inputs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_inputs h5 {
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-family: Manrope;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_inputs div input {
+  border-radius: 4px;
+  border: 1px solid #697D94;
+  background: #0D151D;
+  display: flex;
+  padding: 10px 35px 10px 10px;
+  align-items: center;
+  gap: 10px;
+  width: 370px;
+  color: #fff;
+  outline: none;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_inputs div .icon-input {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-image: url(../../img/ic_twotone-plus-minus-alt.svg);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_inputs div .icon-input-text {
+  position: absolute;
+  right: 10px;
+  bottom: 2px;
+  width: 25px;
+  height: 25px;
+  color: var(--white, #FFF);
+  text-align: right;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_inputs.none {
+  display: none;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns_conditional {
+  display: none;
+  border-radius: 4px;
+  background: #1a2839;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns_conditional button {
+  cursor: pointer;
+  padding: 5px 10px;
+  background: none;
+  border: none;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns_conditional button p {
+  padding: 0px 38px;
+  color: #697D94;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: right;
+  font-family: Manrope;
+  transition: 0.3s;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns_conditional .bit_calc_button_conditional.active {
+  background: #3F5C7E;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns_conditional .bit_calc_button_conditional.active p {
+  color: #fff;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns_conditional.flex {
+  display: flex;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns_conditional2 {
+  display: none;
+  border-radius: 4px;
+  background: #1a2839;
+  width: 246px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns_conditional2 button {
+  width: 123px;
+  cursor: pointer;
+  padding: 5px 10px;
+  background: none;
+  border: none;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns_conditional2 button p {
+  padding: 0px 31px;
+  color: #697D94;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: right;
+  font-family: Manrope;
+  transition: 0.3s;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns_conditional2 .bit_calc_button_conditional2.active {
+  background: #3F5C7E;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns_conditional2 .bit_calc_button_conditional2.active p {
+  color: #fff;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns_conditional2.flex {
+  display: flex;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns_precents {
+  display: flex;
+  border-radius: 4px;
+  background: #1a2839;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns_precents button {
+  cursor: pointer;
+  padding: 5px 10px;
+  background: none;
+  border: none;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns_precents button p {
+  padding: 0px 12px;
+  color: #697D94;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: right;
+  font-family: Manrope;
+  transition: 0.3s;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns_precents .bit_calc_percent_button.active {
+  background-color: #3F5C7E;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_btns_precents .bit_calc_percent_button.active p {
+  color: #fff;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_tp-sl {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_tp-sl label {
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #FFF;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_tp-sl .right_tp-sl,
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_tp-sl .left_tp-sl {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_tp-sl .right_tp-sl input,
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_tp-sl .left_tp-sl input {
+  border: solid 1px #697D94;
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_tp-sl .right_tp-sl input + label,
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_tp-sl .left_tp-sl input + label {
+  display: inline-flex;
+  align-items: center;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_tp-sl .right_tp-sl input + label::before,
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_tp-sl .left_tp-sl input + label::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #697D94;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_tp-sl .right_tp-sl input:checked + label::before,
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_tp-sl .left_tp-sl input:checked + label::before {
+  border-color: #2E4CE5;
+  background: url(../../img/checkbox_icon.svg) center;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_tp-sl.none {
+  display: none;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_order_value {
+  display: flex;
+  gap: 135px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_order_value div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_order_value div p {
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #697D94;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_order_value div h5 {
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #FFF;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_colors_btns {
+  display: flex;
+  justify-content: space-between;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_colors_btns .back_green {
+  background-color: #21AF40;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 13px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_colors_btns .back_red {
+  background-color: #FF2C2C;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 13px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_post label {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_post .bit_calc_post_check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_post .bit_calc_post_check input {
+  border: solid 1px #697D94;
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_post .bit_calc_post_check input + label {
+  display: inline-flex;
+  align-items: center;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_post .bit_calc_post_check input + label::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #697D94;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_post .bit_calc_post_check input:checked + label::before {
+  border-color: #2E4CE5;
+  background: url(../../img/checkbox_icon.svg) center;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_post .bit_calc_post_text {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_post .bit_calc_post_text h5 {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_grey-line {
+  background-color: #B9B9B9;
+  height: 1px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_upgrade {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_upgrade img {
+  cursor: pointer;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_upgrade .bit_calc_upgrade_btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_upgrade .bit_calc_upgrade_btn h5 {
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #FFF;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_upgrade .bit_calc_upgrade_btn2 {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_upgrade .bit_calc_upgrade_btn2 h5 {
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #FFC121;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_equity {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_equity div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_equity div h5 {
+  color: #FFF;
+  text-align: right;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_white_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_white_btn button {
+  cursor: pointer;
+  width: 110px;
+  padding: 5px 20px;
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: none;
+  border: solid 1px white;
+  border-radius: 4px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_title h5 {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_contract .bit_calc_contract_details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_contract .bit_calc_contract_details .bit_calc_contract_details_hide {
+  transform: scaleY(100%);
+  transition: 0.3s;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  transform-origin: top;
+  height: 110px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_contract .bit_calc_contract_details .bit_calc_contract_details_hide.active {
+  transform: scaleY(0%);
+  transition: 0.3s;
+  height: 0px;
+  transform-origin: top;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_contract .bit_calc_contract_details .bit_calc_contract_details_line {
+  display: flex;
+  justify-content: space-between;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_contract .bit_calc_contract_details h5 {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_contract .bit_calc_contract_details h6 {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_hide {
+  margin-bottom: -8px;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_hide div {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_hide div #bit_calc_hide {
+  transform: rotate(0deg);
+  transition: 0.2s;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_hide div #bit_calc_hide.active {
+  transform: rotate(180deg);
+  transition: 0.2s;
+}
+.bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_hide div h5 {
+  color: #697D94;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.bit_data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  width: 1439px;
+}
+.bit_data .bit_data_recent_trades {
+  width: 400px;
+  padding: 15px;
+  border-radius: 8px;
+  background: #131E2A;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.bit_data .bit_data_recent_trades .bit_data_recent_trades_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bit_data .bit_data_recent_trades .bit_data_recent_trades_title h5 {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_recent_trades .bit_data_recent_trades-line {
+  height: 1px;
+  background: #b9b9b9;
+}
+.bit_data .bit_data_recent_trades .bit_data_recent_trades_info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transform: scaleY(0%);
+  transform-origin: top;
+  transition: 0.3s;
+  height: 0px;
+}
+.bit_data .bit_data_recent_trades .bit_data_recent_trades_info .bit_data_recent_trades_info-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bit_data .bit_data_recent_trades .bit_data_recent_trades_info .bit_data_recent_trades_info-line h6 {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bit_data .bit_data_recent_trades .bit_data_recent_trades_info .bit_data_recent_trades_info-line div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.bit_data .bit_data_recent_trades .bit_data_recent_trades_info .bit_data_recent_trades_info-line div h5 {
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bit_data .bit_data_recent_trades .bit_data_recent_trades_info.active {
+  transform: scaleY(100%);
+  transition: 0.3s;
+  height: 98px;
+}
+.bit_data .bit_data_order_book {
+  width: 400px;
+  padding: 15px;
+  border-radius: 8px;
+  background: #131E2A;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_title h5 {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book-line {
+  height: 1px;
+  background: #b9b9b9;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info {
+  transform: scaleY(0%);
+  transition: 0.3s;
+  height: 0px;
+  transform-origin: top;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_frames {
+  margin: 5px 0px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_frames .bit_data_order_book_frames_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_frames .bit_data_order_book_frames_box .bit_data_order_book_frames_box-img {
+  display: flex;
+  gap: 9px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_frames .bit_data_order_book_frames_box .bit_data_order_book_frames_box-img .bit_data_order_img {
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
+  padding: 2px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_frames .bit_data_order_book_frames_box .bit_data_order_book_frames_box-img .bit_data_order_img.active {
+  background: #1A2839;
+  border-radius: 2px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_frames .bit_data_order_book_frames_box select {
+  padding: 5px 25px 5px 10px;
+  border-radius: 4px;
+  border: 1px solid #FFF;
+  background-color: #131E2A;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background-image: url(../../img/arrow_drop_down_dark.svg);
+  background-repeat: no-repeat;
+  background-position: 20px;
+  background-size: 40%;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_upper-numbers-order {
+  display: flex;
+  justify-content: space-between;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_upper-numbers-order .bit_data_order_book_upper-numbers_first_col-order {
+  width: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_upper-numbers-order .bit_data_order_book_upper-numbers_first_col-order h5 {
+  color: #697D94;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_upper-numbers-order .bit_data_order_book_upper-numbers_first_col-order ul {
+  color: #fff;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_upper-numbers-order .bit_data_order_book_upper-numbers_first_col-order ul li {
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_upper-numbers-order .bit_data_order_book_upper-numbers_other_col-order {
+  width: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: right;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_upper-numbers-order .bit_data_order_book_upper-numbers_other_col-order h5 {
+  color: #697D94;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_upper-numbers-order .bit_data_order_book_upper-numbers_other_col-order ul {
+  color: #fff;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_upper-numbers-order .bit_data_order_book_upper-numbers_other_col-order ul li {
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_upper-numbers {
+  display: flex;
+  justify-content: space-between;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  width: 100px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col h5 {
+  color: #697D94;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col ul li {
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_other_col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: right;
+  width: 100px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_other_col h5 {
+  color: #697D94;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_other_col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_other_col ul li {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_middle-numbers {
+  display: flex;
+  justify-content: space-around;
+  margin: 9px 0px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_middle-numbers div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_middle-numbers div h3 {
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-first .bit_data_order_book_middle-numbers div h4 {
+  color: #FFC121;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-second {
+  display: none;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-second .bit_data_order_book_upper-numbers {
+  display: flex;
+  justify-content: space-between;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-second .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col-second {
+  display: flex;
+  gap: 24px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-second .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col-second .bit_data_order_book_upper-numbers_first_col-second-col {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-second .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col-second .bit_data_order_book_upper-numbers_first_col-second-col div {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-second .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col-second .bit_data_order_book_upper-numbers_first_col-second-col div p {
+  color: #697D94;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-second .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col-second .bit_data_order_book_upper-numbers_first_col-second-col div ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-second .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col-second .bit_data_order_book_upper-numbers_first_col-second-col div ul li {
+  width: 100%;
+  list-style: none;
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-second .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col-second .bit_data_order_book_upper-numbers_first_col-second-col div ul li.green {
+  color: #21AF40;
+  text-align: right;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-second .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col-second .bit_data_order_book_upper-numbers_first_col-second-col div ul li.red {
+  color: #FF2C2C;
+  text-align: left;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-second .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col-second .bit_data_order_book_upper-numbers_first_col-second-col div ul.right {
+  text-align: right;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-second .bit_data_order_book_middle-numbers {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 0px 12px 0px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-second .bit_data_order_book_middle-numbers div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-second .bit_data_order_book_middle-numbers div h3 {
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-second .bit_data_order_book_middle-numbers div h4 {
+  color: #FFC121;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-third {
+  display: none;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-third .bit_data_order_book_upper-numbers {
+  display: flex;
+  justify-content: space-between;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-third .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  width: 100px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-third .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col h5 {
+  color: #697D94;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-third .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-third .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col ul li {
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-third .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_other_col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: right;
+  width: 100px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-third .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_other_col h5 {
+  color: #697D94;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-third .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_other_col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-third .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_other_col ul li {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-third .bit_data_order_book_middle-numbers {
+  display: flex;
+  justify-content: space-around;
+  margin: 9px 0px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-third .bit_data_order_book_middle-numbers div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-third .bit_data_order_book_middle-numbers div h3 {
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-third .bit_data_order_book_middle-numbers div h4 {
+  color: #FFC121;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-fourth {
+  display: none;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-fourth .bit_data_order_book_upper-numbers {
+  display: flex;
+  justify-content: space-between;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-fourth .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  width: 100px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-fourth .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col h5 {
+  color: #697D94;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-fourth .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-fourth .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_first_col ul li {
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-fourth .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_other_col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: right;
+  width: 100px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-fourth .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_other_col h5 {
+  color: #697D94;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-fourth .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_other_col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-fourth .bit_data_order_book_upper-numbers .bit_data_order_book_upper-numbers_other_col ul li {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-fourth .bit_data_order_book_middle-numbers {
+  display: flex;
+  justify-content: space-around;
+  margin: 9px 0px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-fourth .bit_data_order_book_middle-numbers div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-fourth .bit_data_order_book_middle-numbers div h3 {
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info .bit_data_order_book_info_box-fourth .bit_data_order_book_middle-numbers div h4 {
+  color: #FFC121;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bit_data .bit_data_order_book .bit_data_order_book_info.active {
+  transform: scaleY(100%);
+  transition: 0.3s;
+  height: 435px;
+}
+.bit_data .bit_data_details_info {
+  width: 1423px;
+  padding: 15px;
+  border-radius: 8px;
+  background: #131E2A;
+}
+.bit_data .bit_data_details_info .bit_data_details_info_upper_btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1A2839;
+}
+.bit_data .bit_data_details_info .bit_data_details_info_upper_btns .bit_data_details_info_upper-buttons {
+  display: flex;
+}
+.bit_data .bit_data_details_info .bit_data_details_info_upper_btns .bit_data_details_info_upper-buttons button {
+  cursor: pointer;
+  padding: 10px 30px;
+  text-align: right;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #697D94;
+  background: none;
+  border: none;
+  transition: 0.3s;
+}
+.bit_data .bit_data_details_info .bit_data_details_info_upper_btns .bit_data_details_info_upper-buttons .bit_data_button.active {
+  color: #fff;
+  background: #3F5C7E;
+}
+.bit_data .bit_data_details_info .bit_data_details_info_upper_btns .bit_data_details_info_upper_btns-checkbox {
+  display: flex;
+  gap: 10px;
+  margin: 10px 20px;
+  align-items: center;
+}
+.bit_data .bit_data_details_info .bit_data_details_info_upper_btns .bit_data_details_info_upper_btns-checkbox label {
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #FFF;
+}
+.bit_data .bit_data_details_info .bit_data_details_info_upper_btns .bit_data_details_info_upper_btns-checkbox input {
+  border: solid 1px #697D94;
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.bit_data .bit_data_details_info .bit_data_details_info_upper_btns .bit_data_details_info_upper_btns-checkbox input + label {
+  display: inline-flex;
+  align-items: center;
+}
+.bit_data .bit_data_details_info .bit_data_details_info_upper_btns .bit_data_details_info_upper_btns-checkbox input + label::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #697D94;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+.bit_data .bit_data_details_info .bit_data_details_info_upper_btns .bit_data_details_info_upper_btns-checkbox input:checked + label::before {
+  border-color: #2E4CE5;
+  background: url(../../img/checkbox_icon.svg) center;
+}
+.bit_data .bit_data_details_info .bit_data_details_info_table table {
+  width: 100%;
+}
+.bit_data .bit_data_details_info .bit_data_details_info_table table thead tr th {
+  color: #9EA7B7;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: left;
+  padding: 15px 20px 15px 5px;
+}
+.bit_data .bit_data_details_info .bit_data_details_info_table table tbody tr {
+  border-top: solid white 1px;
+  border-bottom: solid white 1px;
+}
+.bit_data .bit_data_details_info .bit_data_details_info_table table tbody tr td {
+  color: #535774;
+  font-family: Proxima Nova;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: left;
+  padding: 15px 20px 15px 5px;
+}
+.bit_data .bit_data_details_info .bit_data_details_info_table table, .bit_data .bit_data_details_info .bit_data_details_info_table th, .bit_data .bit_data_details_info .bit_data_details_info_table td {
+  border-collapse: collapse;
+}
+
+.side_bar_left {
+  position: absolute;
+  top: 0;
+  left: -370px;
+  z-index: 30;
+  width: 370px;
+  height: 100%;
+  background-color: #131E2A;
+  transition: 0.3s;
+}
+.side_bar_left .side_bar_left_box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px 15px;
+}
+.side_bar_left .side_bar_left_box .side_bar_left-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.side_bar_left .side_bar_left_box .side_bar_left-title h3 {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.side_bar_left .side_bar_left_box .side_bar_left-title img {
+  cursor: pointer;
+}
+.side_bar_left .side_bar_left_box .side_bar_left-input div {
+  position: relative;
+}
+.side_bar_left .side_bar_left_box .side_bar_left-input div input {
+  border-radius: 4px;
+  border: 1px solid #697D94;
+  background: #0D151D;
+  display: flex;
+  padding: 10px 10px 10px 30px;
+  align-items: center;
+  gap: 10px;
+  width: 336px;
+  color: #fff;
+  outline: none;
+}
+.side_bar_left .side_bar_left_box .side_bar_left-input div .icon-input {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  background-image: url(../../img/search.svg);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+}
+.side_bar_left .side_bar_left_box .side_bar_left-info table {
+  width: 100%;
+}
+.side_bar_left .side_bar_left_box .side_bar_left-info table thead tr th {
+  height: 40px;
+}
+.side_bar_left .side_bar_left_box .side_bar_left-info table thead tr th div {
+  display: flex;
+  gap: 3px;
+}
+.side_bar_left .side_bar_left_box .side_bar_left-info table thead tr th div h4 {
+  max-width: 83px;
+  color: #9EA7B7;
+  font-family: Proxima Nova;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: right;
+}
+.side_bar_left .side_bar_left_box .side_bar_left-info table tbody tr td {
+  padding: 10px 0px;
+}
+.side_bar_left .side_bar_left_box .side_bar_left-info table tbody tr td div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.side_bar_left .side_bar_left_box .side_bar_left-info table tbody tr td div h4 {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+}
+.side_bar_left .side_bar_left_box .side_bar_left-info table tbody tr td h5 {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.side_bar_left.active {
+  left: 0;
+  transition: 0.3s;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0D151D;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 99%;
+}
+
+.red {
+  color: #FF2C2C;
+}
+
+.green {
+  color: #21AF40;
+}
+
+.click {
+  cursor: pointer;
+}
+
+.all_hero {
+  display: flex;
+  max-width: 99%;
+  margin: 10px auto;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.side_bar_background.active {
+  width: 100%;
+  height: 1300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+  background: black;
+  z-index: 15;
+}/*# sourceMappingURL=index.css.map */

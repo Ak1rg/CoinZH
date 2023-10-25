@@ -1,0 +1,626 @@
+.bit_calculator{
+    width: 400px;
+    .first_line{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .first_line_cross{
+            display: flex;
+            align-items: center;
+            gap: 135px;
+            padding: 10px 20px;
+            background-color: #131E2A;
+            border-radius: 8px;
+            .info_cross{
+                display: flex;
+                gap: 10px;
+                h6{
+                    color:  #FFF;
+                    font-family: Manrope;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-align: right;
+                }
+                h5{
+                    font-family: Manrope;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-align: right;
+                }
+            }
+        }
+    }
+    .bitcoin_calc{
+        margin-top: 10px;
+        background-color: #131E2A;
+        border-radius: 8px;
+        padding: 15px;
+        .bit_calc_box{  
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .bit_calc_head_btns{
+                display: flex;
+                cursor: pointer;
+                .bit_calc_head_btn{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    button{
+                        margin: 5px 0px;
+                        color: #697D94;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        font-family: Manrope;
+                        font-size: 14px;
+                        background: none;
+                        border: none;
+                        transition: .3s;
+                    }
+                    .bit_calc_head_line{
+                        height: 1px;
+                        width: 185px;
+                        background-color: #B9B9B9;
+                        transition: .3s;
+                    }
+                }
+                .bit_calc_head_btn.active{
+                    button{
+                        color: #2E4CE5;
+                        transition: .3s;
+                        margin: 5px 0px 4px 0px;
+                    }
+                    .bit_calc_head_line{
+                        height: 3px;
+                        transition: .3s;
+                        background-color: #2E4CE5;
+                    }
+                }
+            }
+            .bit_calc_btns{
+                display: flex;
+                border-radius: 4px;
+                background: #1a2839;
+                button{
+                    cursor: pointer;
+                    padding: 10px 20px;
+                    background: none;
+                    border: none;
+                    border-radius: 4px;
+                    transition: .3s;
+                    p{
+                        padding: 0px 16px;
+                        color:#697D94;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-align: right;
+                        font-family: Manrope;
+                        transition: .3s;
+                    }
+                }
+                .bit_calc_button.active{
+                    p{
+                        color: #fff;
+                    }
+                    background: #3F5C7E;
+                }
+            }
+            .bit_calc_btns.none{
+                display: none;
+            }
+            .bit_calc_btns2{
+                display: flex;
+                border-radius: 4px;
+                background: #1a2839;
+                button{
+                    cursor: pointer;
+                    padding: 10px 20px;
+                    background: none;
+                    border: none;
+                    border-radius: 4px;
+                    transition: .3s;
+                    p{
+                        padding: 0px 53px;
+                        color:#697D94;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-align: right;
+                        font-family: Manrope;
+                        transition: .3s;
+                    }
+                }
+                .bit_calc_button2.active{
+                    p{
+                        color: #fff;
+                    }
+                    background: #3F5C7E;
+                }
+            }
+            .bit_calc_btns2.none{
+                display: none;
+            }
+            .bit_calc_inputs{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                h5{
+                    color:  #FFF;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    font-family: Manrope;
+                }
+                div{
+                    input{
+                        border-radius: 4px;
+                        border: 1px solid #697D94;
+                        background: #0D151D;
+                        display: flex;
+                        padding: 10px 35px 10px 10px;
+                        align-items: center;
+                        gap: 10px;
+                        width: 370px;
+                        color: #fff;
+                        outline: none;
+                    }
+                    .icon-input{
+                        position: absolute;
+                        right: 10px;
+                        bottom: 10px;
+                        background-image:url(../../img/ic_twotone-plus-minus-alt.svg);
+                        background-repeat: no-repeat;
+                        width: 16px;
+                        height: 16px;
+                    }
+                    .icon-input-text{
+                        position: absolute;
+                        right: 10px;
+                        bottom: 2px;
+                        width: 25px;
+                        height: 25px;
+                        color: var(--white, #FFF);
+                        text-align: right;
+                        font-family: Manrope;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+            }
+            .bit_calc_inputs.none{
+                display: none;
+            }
+            .bit_calc_btns_conditional{
+                display: none;
+                border-radius: 4px;
+                background: #1a2839;
+                button{
+                    cursor: pointer;
+                    padding: 5px 10px;
+                    background: none;
+                    border: none;
+                    border-radius: 4px;
+                    transition: .3s;
+                    p{
+                        padding: 0px 38px;
+                        color:#697D94;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        text-align: right;
+                        font-family: Manrope;
+                        transition: .3s;
+                    }
+                }
+                .bit_calc_button_conditional.active{
+                    p{
+                        color: #fff;
+                    }
+                    background: #3F5C7E;
+                }
+            }
+            .bit_calc_btns_conditional.flex{
+                display: flex;
+            }
+            .bit_calc_btns_conditional2{
+                display: none;
+                border-radius: 4px;
+                background: #1a2839;
+                width: 246px;
+                button{
+                    width: 123px;
+                    cursor: pointer;
+                    padding: 5px 10px;
+                    background: none;
+                    border: none;
+                    border-radius: 4px;
+                    transition: .3s;
+                    p{
+                        padding: 0px 31px;
+                        color:#697D94;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        text-align: right;
+                        font-family: Manrope;
+                        transition: .3s;
+                    }
+                }
+                .bit_calc_button_conditional2.active{
+                    p{
+                        color: #fff;
+                    }
+                    background: #3F5C7E;
+                }
+            }
+            .bit_calc_btns_conditional2.flex{
+                display: flex;
+            }
+            .bit_calc_btns_precents{
+                display: flex;
+                border-radius: 4px;
+                background: #1a2839;
+                button{
+                    cursor: pointer;
+                    padding:5px 10px;
+                    background: none;
+                    border: none;
+                    border-radius: 4px;
+                    transition: .3s;
+                    p{
+                        padding: 0px 12px;
+                        color:#697D94;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-align: right;
+                        font-family: Manrope;
+                        transition: .3s;
+                    }
+                }
+                .bit_calc_percent_button.active{
+                    background-color: #3F5C7E;
+                    p{
+                        color: #fff;
+                    }
+                }
+            }
+            .bit_calc_tp-sl{
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+                label{
+                    font-family: Manrope;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    color: #FFF;
+                }
+                .right_tp-sl,
+                .left_tp-sl{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    
+                    input{
+                        border: solid 1px #697D94 ;
+                        position: absolute;
+                        opacity: 0;
+                        z-index: -1;
+                    }
+                    input+label {
+                        display: inline-flex;
+                        align-items: center;
+                        
+                    }
+                    input+label::before {
+                        content: '';
+                        display: inline-block;
+                        width: 12px;
+                        height: 12px;
+                        border: 2px solid #697D94;
+                        border-radius: 2px;
+                        margin-right: 10px;
+                        
+                    }
+                    input:checked+label::before {
+                        border-color: #2E4CE5;
+                        background: url(../../img/checkbox_icon.svg) center;
+                    }
+                }
+            }
+            .bit_calc_tp-sl.none{
+                display: none;
+            }
+            .bit_calc_order_value{
+                display: flex;
+                gap: 135px;
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    p{
+                        font-family: Manrope;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        color: #697D94;
+                    }
+                    h5{
+                        font-family: Manrope;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        color: #FFF;
+                    }
+                }
+            }
+            .bit_calc_colors_btns{
+                display: flex;
+                justify-content: space-between;
+                .back_green{
+                    background-color: #21AF40;
+                    color: #fff;
+                    font-family: Manrope;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    display: flex;
+                    padding: 13px 40px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+                .back_red{
+                    background-color:#FF2C2C;
+                    color: #fff;
+                    font-family: Manrope;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    display: flex;
+                    padding: 13px 40px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+            .bit_calc_post{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                label{
+                    color: #FFF;
+                    font-family: Manrope;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+                .bit_calc_post_check{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    input{
+                        border: solid 1px #697D94 ;
+                        position: absolute;
+                        opacity: 0;
+                        z-index: -1;
+                    }
+                    input+label {
+                        display: inline-flex;
+                        align-items: center;
+                    }
+                    input+label::before {
+                        content: '';
+                        display: inline-block;
+                        width: 12px;
+                        height: 12px;
+                        border: 2px solid #697D94;
+                        border-radius: 2px;
+                        margin-right: 10px;
+                    }
+                    input:checked+label::before {
+                        border-color: #2E4CE5;
+                        background: url(../../img/checkbox_icon.svg) center;
+                    }
+                }
+                .bit_calc_post_text{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    cursor: pointer;
+                    h5{
+                        color: #FFF;
+                        font-family: Manrope;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+            }
+            .bit_calc_grey-line{
+                background-color: #B9B9B9;
+                height: 1px;
+            }
+            .bit_calc_upgrade{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                img{
+                    cursor: pointer;
+                }
+                .bit_calc_upgrade_btn{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    h5{
+                        font-family: Manrope;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        color: #FFF;
+                    }
+                }
+                .bit_calc_upgrade_btn2{
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    h5{
+                        font-family: Manrope;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        color: #FFC121;
+                    }
+                }
+            }
+            .bit_calc_equity{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    h5{
+                        color: #FFF;
+                        text-align: right;
+                        font-family: Manrope;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+            }
+            .bit_calc_white_btn{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                button{
+                    cursor: pointer;
+                    width: 110px;
+                    padding: 5px 20px;
+                    color:  #FFF;
+                    font-family: Manrope;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    background: none;
+                    border: solid 1px white;
+                    border-radius: 4px;
+                }
+            }
+            .bit_calc_title{
+                h5{
+                    color:  #FFF;
+                    font-family: Manrope;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+            }
+            .bit_calc_contract{
+                .bit_calc_contract_details{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    .bit_calc_contract_details_hide{
+                        transform: scaleY(100%);
+                        transition: .3s;
+                        gap: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        transform-origin: top;
+                        height: 110px;
+                    }
+                    .bit_calc_contract_details_hide.active{
+                        transform: scaleY(0%);
+                        transition: .3s;
+                        height: 0px;
+                        transform-origin: top;
+                    }
+                    .bit_calc_contract_details_line{
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    h5{
+                        color:  #FFF;
+                        font-family: Manrope;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                    }
+                    h6{
+                        color:  #FFF;
+                        font-family: Manrope;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+            }
+            .bit_calc_hide{
+                margin-bottom: -8px;
+                div{
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    justify-content: center;
+                    #bit_calc_hide{
+                        transform: rotate(0deg);
+                        transition: .2s;
+                    }
+                    #bit_calc_hide.active{
+                        transform: rotate(180deg);
+                        transition: .2s;
+                    }
+                    h5{
+                        color: #697D94;
+                        font-family: Manrope;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+}

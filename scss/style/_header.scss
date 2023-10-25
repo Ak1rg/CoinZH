@@ -1,0 +1,78 @@
+.head{
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .head_logo{
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        .head_logo_buttons{
+            display: flex;
+            gap: 25px;
+            a{
+                color: var(--white, #FFF);
+                font-family: Manrope;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-decoration: none;
+            }
+            a:hover{
+                color: #2E4CE5;
+                transition: .3s;
+            }
+        }
+    }
+    .head_buttons{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        .btn_login{
+            cursor: pointer;
+            background: none;
+            border: none;
+            a{
+                text-decoration: none;
+                font-family: Manrope;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                color:  #FFF;
+            }
+            a:hover{
+                color: #2E4CE5;
+                transition: .3s;
+            }
+        }
+        .btn_start{
+            border: solid 1px #2E4CE5;
+            cursor: pointer;
+            padding: 13px 40px;
+            border-radius: 6px;
+            background: #2E4CE5;
+            transition: .5s;
+            a{
+                color: #FFF;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                font-family: Manrope;
+                text-decoration: none;
+                transition: .5s;
+            }
+        }
+        .btn_start:hover{
+            border: solid 1px #2E4CE5;
+            background-color:#0D151D;
+            transition: .3s;
+            a{
+                color: #2E4CE5;
+                transition: .3s;
+            }
+        }
+    }
+}
