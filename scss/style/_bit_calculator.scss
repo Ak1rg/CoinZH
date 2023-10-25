@@ -178,7 +178,7 @@
                         position: absolute;
                         right: 10px;
                         bottom: 10px;
-                        background-image:url(../../img/ic_twotone-plus-minus-alt.svg);
+                        background-image:url(../img/ic_twotone-plus-minus-alt.svg);
                         background-repeat: no-repeat;
                         width: 16px;
                         height: 16px;
@@ -341,7 +341,7 @@
                     }
                     input:checked+label::before {
                         border-color: #2E4CE5;
-                        background: url(../../img/checkbox_icon.svg) center;
+                        background: url(../img/checkbox_icon.svg) center;
                     }
                 }
             }
@@ -448,7 +448,7 @@
                     }
                     input:checked+label::before {
                         border-color: #2E4CE5;
-                        background: url(../../img/checkbox_icon.svg) center;
+                        background: url(../img/checkbox_icon.svg) center;
                     }
                 }
                 .bit_calc_post_text{
