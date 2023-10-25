@@ -131,7 +131,7 @@
                         font-style: normal;
                         font-weight: 500;
                         line-height: normal;  
-                        background-image: url(../../img/arrow_drop_down_dark.svg);  
+                        background-image: url(../img/arrow_drop_down_dark.svg);  
                         background-repeat: no-repeat;
                         background-position: 20px;
                         background-size: 40%;                   
@@ -625,7 +625,7 @@
                 }
                 input:checked+label::before {
                     border-color: #2E4CE5;
-                    background: url(../../img/checkbox_icon.svg) center;
+                    background: url(../img/checkbox_icon.svg) center;
                 }
             }
         }

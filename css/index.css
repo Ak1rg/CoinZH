@@ -366,7 +366,7 @@
   position: absolute;
   right: 10px;
   bottom: 10px;
-  background-image: url(../../img/ic_twotone-plus-minus-alt.svg);
+  background-image: url(../img/ic_twotone-plus-minus-alt.svg);
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
@@ -530,7 +530,7 @@
 .bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_tp-sl .right_tp-sl input:checked + label::before,
 .bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_tp-sl .left_tp-sl input:checked + label::before {
   border-color: #2E4CE5;
-  background: url(../../img/checkbox_icon.svg) center;
+  background: url(../img/checkbox_icon.svg) center;
 }
 .bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_tp-sl.none {
   display: none;
@@ -637,7 +637,7 @@
 }
 .bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_post .bit_calc_post_check input:checked + label::before {
   border-color: #2E4CE5;
-  background: url(../../img/checkbox_icon.svg) center;
+  background: url(../img/checkbox_icon.svg) center;
 }
 .bit_calculator .bitcoin_calc .bit_calc_box .bit_calc_post .bit_calc_post_text {
   display: flex;
@@ -945,7 +945,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  background-image: url(../../img/arrow_drop_down_dark.svg);
+  background-image: url(../img/arrow_drop_down_dark.svg);
   background-repeat: no-repeat;
   background-position: 20px;
   background-size: 40%;
@@ -1430,7 +1430,7 @@
 }
 .bit_data .bit_data_details_info .bit_data_details_info_upper_btns .bit_data_details_info_upper_btns-checkbox input:checked + label::before {
   border-color: #2E4CE5;
-  background: url(../../img/checkbox_icon.svg) center;
+  background: url(../img/checkbox_icon.svg) center;
 }
 .bit_data .bit_data_details_info .bit_data_details_info_table table {
   width: 100%;
